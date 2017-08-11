@@ -1,9 +1,11 @@
 # GIT config
 
+```
 git init
 git config --global user.name "John Doe"
 git config --global user.email "john@doe.com"
 git config --list
+```
 
 # NodeJS and NPM config
 
@@ -44,3 +46,17 @@ Then run the following in any command prompt:
 npm start
 ```
 
+## Setting up gitignore
+
+Create a .gitignore file in week1 directory with:
+```
+node_modules
+```
+This tells git to ignore the whole node_modules folder.
+
+# Bootstrap 4
+
+## Installing
+
+By installing bootstrap 4.0.0-beta, it does not automatically install jquery and tether
+So install it also.
