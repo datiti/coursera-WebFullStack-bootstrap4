@@ -1,0 +1,12 @@
+{
+  "name": "week1",
+  "version": "0.0.1",
+  "dependencies": {},
+  "description": "week 1 application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
