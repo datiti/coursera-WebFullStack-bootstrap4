@@ -78,3 +78,8 @@ Bootstrap leverages CSS Flexbox layout.
 Bootstrap grid:
 * the use of div class container or container-fluid
 * within wich you use div class row that is divided into 12 equal size columns
+
+### Change in version...
+
+Be aware that between 4.0.0-alpha.6 and 4.0.0-beta, flex-first, flex-last, push-* and pull-* have disappeared.
+So for the coursera course to work, you must use 4.0.0-alpha.6.
