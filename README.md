@@ -60,3 +60,16 @@ This tells git to ignore the whole node_modules folder.
 
 By installing bootstrap 4.0.0-beta, it does not automatically install jquery and tether
 So install it also.
+
+## Grid system
+
+The core of responsive website:
+* responsive
+* mobile first
+* fluid
+The bootstrap grid system fulfills previous requirements.
+Bootstrap leverages CSS Flexbox layout.
+
+Bootstrap grid:
+* the use of div class container or container-fluid
+* within wich you use div class row that is divided into 12 equal size columns
