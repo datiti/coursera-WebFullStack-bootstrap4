@@ -2,7 +2,7 @@
   "name": "week1-assignment",
   "version": "0.0.1",
   "description": "week 1 assignment",
-  "main": "index.html",
+  "main": "aboutus.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
