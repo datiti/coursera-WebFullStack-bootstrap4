@@ -28,3 +28,13 @@
     margin: 0px;
     color: #0f0f0f;
 }
+
+body{
+    /* this padding ensures that navbar does not overlay the jumbotron on small device where the navbar toggler is too big*/
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+    background-color: #512DA8;
+}
