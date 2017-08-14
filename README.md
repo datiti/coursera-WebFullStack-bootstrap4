@@ -61,6 +61,11 @@ This tells git to ignore the whole node_modules folder.
 By installing bootstrap 4.0.0-beta, it does not automatically install jquery and tether
 So install it also.
 
+```
+npm install bootstrap@4.0.0-alpha.6 --save
+npm install jquery tether --save
+```
+
 ## Grid system
 
 The core of responsive website:
