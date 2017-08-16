@@ -14,7 +14,6 @@
     <link href="css/styles.css" rel="stylesheet">
 
     <title>Ristorante Con Fusion: About Us</title>
-
 </head>
 
 <body>
@@ -110,7 +109,10 @@
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-sm-4 col-md-3">
                             <div class="input-group">
-                                <!-- alignment issue here -->
+                                <!-- alignment issue here: the left/right parenthesis are not vertically middle aligned
+                                It seems that the issue comes from the font-family used by default and not the
+                                component itself...
+                                -->
                                 <span class="input-group-addon">(</span>
                                 <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
                                 <span class="input-group-addon">)</span>
