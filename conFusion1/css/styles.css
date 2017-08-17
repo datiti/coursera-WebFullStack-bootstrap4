@@ -62,6 +62,12 @@ body{
     min-height: 300px;
 }
 
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
+
 /*
 Bug on twbs 4.0.0-alpha.6: flex-direction of date/time input control is column by default.
 We must force their flex-direction to row
