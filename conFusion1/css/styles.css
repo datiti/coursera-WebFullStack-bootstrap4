@@ -39,6 +39,14 @@ body{
     background-color: #512DA8;
 }
 
+/* will enclose the tab content with a nice border */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
 /*
 Bug on twbs 4.0.0-alpha.6: flex-direction of date/time input control is column by default.
 We must force their flex-direction to row
