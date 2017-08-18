@@ -18,3 +18,10 @@ button.click(function(){
         spanchild.addClass('fa-pause');
     }
 });
+
+$("#loginLink").click(function(){
+   $("#loginModal").modal('show');
+});
+$("#buttonReserve").click(function(){
+    $("#reserveModal").modal('show');
+});
