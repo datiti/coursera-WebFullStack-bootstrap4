@@ -1,3 +1,5 @@
+# week 2 to 4 are developed inside conFusion1 directory :)
+
 # GIT config
 
 ```
