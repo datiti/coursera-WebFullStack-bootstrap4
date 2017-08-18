@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$fontcolor-light: floralwhite;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -77,4 +78,21 @@ We must force their flex-direction to row
 */
 .input-group .form-control {
   flex-direction: row;
+}
+
+.modal-header  {
+  background: $background-dark;
+  color: $fontcolor-light;
+}
+
+.modal-header button {
+  color: $fontcolor-light;
+}
+
+.modal-body {
+  background: $background-pale;
+}
+
+.modal-footer {
+  background: $background-light;
 }
